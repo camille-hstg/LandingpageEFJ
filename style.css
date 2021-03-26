@@ -1,0 +1,82 @@
+body {
+	margin: 0px;
+	background-color: rgb(180,60,30);
+}
+
+.banner {
+	background-image:background: rgb(103,103,115);
+background: linear-gradient(90deg, rgba(255,0,0,0.22262118491921) 0%, rgba(103,103,115,1) 100%, rgba(2,0,36,1) 100%), url("banner.jpg");
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.banner2 {
+	width: 980px;
+	height: 350px;
+	margin: 78px;
+	padding: 59px;
+	background-position: center;
+	text-align: center; 
+	background-color: white;
+	border-radius: 7px;
+}
+
+h1	{
+	color: black;
+	margin: 0px;
+	padding-top: 115px; 
+}
+
+.banner h2	{
+	color: white;
+}
+
+.btn-blue {
+	color: pink;
+	text-decoration: none;
+	background-color: blue;
+	padding: 6px;
+	border-radius: 7px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card {
+	background-color: white;
+	width: 225px;
+	text-align: center;
+	margin-left: 80px;
+	padding: 10px;
+	border-radius: 7px;
+	box-shadow: 1px, 1px, 1px black;
+}
+
+.card2 {
+	background-color: white;
+	width: 320px;
+	text-align: center;
+	margin-left: 80px
+	padding: 60px; 
+}
+
+img {
+	height: 115px;
+	border-radius: 7px;
+}
+
+.footer {
+	background-color: blue;
+	color: white ;
+	text-align: center;
+	padding: 24px;
+}
+
+strong {
+	color: red;
+}
